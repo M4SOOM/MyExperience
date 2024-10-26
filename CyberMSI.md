@@ -60,7 +60,7 @@ If an entity presented a significant threat (like a compromised administrator ac
 1. Incident Investigation: <br>
 We start by reviewing each entity to see if it has a history of suspicious activity or has been involved in previous incidents. Sentinel enables pivoting on these entities across multiple data sources, allowing analysts to evaluate their connections to other events or alerts. After reviewing entities in Sentinel, the analyst can seamlessly transition to Microsoft Defender XDR, where they’ll find detailed insights on each endpoint, network, and email activity associated with the alert. Microsoft Defender XDR consolidates endpoint, identity, and email threat intelligence, providing a unified view of the incident. Here, analysts can delve into activities directly related to compromised endpoints, lateral movement, and attacker persistence strategies.
 
-<img src="Images/MSI/3.jpg">
+<img src="Images/MSI/5.jpg">
 
 The "Attack Story" section in Microsoft Defender XDR is pivotal for understanding the “who, what, and how” of an incident. It provides a visual representation of the entire attack sequence, detailing the alert’s origin, progression, and any related tactics or techniques. By examining the attack story, analysts can see how the incident unfolded over time, identify attacker behavior patterns, and understand which assets or data may have been affected. Each step in the attack story can be clicked on for additional details, which often include logs, commands executed, and impacted resources.
 - Search File Hashes on Threat Intelligence Platforms<br>
