@@ -70,4 +70,4 @@ The "Attack Story" section in Microsoft Defender XDR is pivotal for understandin
 
 Then we start by investigating device timeline within a specific timeframe to focus on, typically within a window of ±30 minutes from the first detection of malicious activity or suspicious alert. This allows the analyst to examine the immediate lead-up to and aftermath of the suspected compromise without being overwhelmed by unrelated data. Firstly start with examining key events on system and security logs to identify significant events, such as logins, logoffs, and attempts to escalate privileges, which could indicate attacker activity. Windows Event Logs, for example, can reveal details about user sessions, security policy changes, or suspicious file modifications.
 
-<img src="Images/Device_Timeline.jpg">
+<img src="Images/MSI/Device_Timeline.jpg">
