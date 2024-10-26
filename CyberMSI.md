@@ -29,7 +29,7 @@ As part of the Security Operations Center (SOC) team, analysts will manage the f
 
 ## Table of contents
 - [Incident Identification and Categorization](#incident-identification-and-categorization)
-- [Why the MasterTemplates?](#why-the-master-templates)
+- [Incident Investigation and Root Cause Analysis](#incident-investigation-and-root-cause-analysis)
 - [How to use them](#how-to-use-them)
 - [Roadmap](#roadmap)
 - [Releases](#releases)
@@ -55,3 +55,5 @@ Here's an example of me doing it.
 <img src="Images/MSI/6.jpg">
 
 If an entity presented a significant threat (like a compromised administrator account or a critical infrastructure device) it could lead to high impact on security, data, or operational continuity. Although Sentinel automatically assigns a severity level to incidents, sometimes investigations reveal high-value entities that may not have been fully reflected in the initial classification, By following the organizational guidelines, i ensured that all incidents (during my shift) were accurately prioritized (High, Medium, Low, Informational), directing resources toward the most critical threats while maintaining a proactive approach to emerging risks.
+
+### Incident Investigation and Root Cause Analysis
