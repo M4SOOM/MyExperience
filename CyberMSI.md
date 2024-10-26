@@ -23,7 +23,7 @@ As part of the Security Operations Center (SOC) team, analysts will manage the f
 </p>
 
 ### Tools Used :
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=azure,jira,&theme=light)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=azure,jira&theme=light)<img src="https://github.com/MasoomEXE/Test1/blob/main/Azure-Sentinel.svg" alt="Dashboard Icon" width="48" height="48">
 <h2 align="center"></h2><p align="center"></p>
 
 
