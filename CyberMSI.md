@@ -50,6 +50,6 @@ This method ensured timely detection and response to incidents by providing me w
 
 2. Analyzing the incidents:<br>
 I reviewed incidents in Azure Sentinel and assessed their severity by analyzing involved entities, such as IP addresses, user accounts, devices, or applications, which could indicate a potential risk. When a new incident appeared, i began by examining the specific entities flagged as malicious or suspicious. By reviewing details such as whether an entity was associated with known threats, patterns of abnormal behavior, or prior alerts, you assessed its potential to harm user devices or the broader network.<br>
-Here's an example of me doing it.
+Here's an example of analyzing it.
 
 <img src="Images/MSI/6.jpg">
