@@ -23,7 +23,7 @@ As part of the Security Operations Center (SOC) team, analysts will manage the f
 </p>
 
 ### Tools Used :
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=azure,jira&theme=light)<img src="https://github.com/MasoomEXE/Test1/blob/main/Azure-Sentinel.svg" alt="Dashboard Icon" width="48" height="48">
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=azure,jira&theme=light)  <img src="https://github.com/MasoomEXE/Test1/blob/main/Azure-Sentinel.svg" alt="Dashboard Icon" width="53" height="53">
 <h2 align="center"></h2><p align="center"></p>
 
 
@@ -47,3 +47,9 @@ As part of the Incident Management lifecycle, your role involves actively monito
 I used "Azure Lighthouse" to gain a unified view of incidents across multiple workspaces in Azure Sentinel. By selecting all relevant workspaces within Sentinel, I accessed a consolidated overview, which enabled me to monitor and investigate security incidents occurring across different environments without switching between separate dashboards. Azure Lighthouse provided a centralized view, aggregating alerts from all connected workspaces, allowing you to quickly spot patterns, prioritize incidents, and maintain situational awareness over the security posture of multiple client or organizational environments.
 
 This method ensured timely detection and response to incidents by providing me with quick access to key metrics and real-time data across all workspaces, which also allowed me to jump directly into any high-severity incidents, initiate triage, and begin investigations without delay.
+
+2. Analyzing the incidents:<br>
+I reviewed incidents in Azure Sentinel and assessed their severity by analyzing involved entities, such as IP addresses, user accounts, devices, or applications, which could indicate a potential risk. When a new incident appeared, i began by examining the specific entities flagged as malicious or suspicious. By reviewing details such as whether an entity was associated with known threats, patterns of abnormal behavior, or prior alerts, you assessed its potential to harm user devices or the broader network.<br>
+Here's an example of me doing it.
+
+<img src="Images/MSI/6.jpg">
