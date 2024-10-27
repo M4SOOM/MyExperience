@@ -98,4 +98,5 @@ After identifying and analyzing a security incident, the next crucial step was t
 
 <img src="Images/MSI/Quarantine.jpg">
 
-"Stop & Qurantine File" means moving the file to a secure location where it can no longer execute, but the file remains available in case further analysis or restoration is needed. Microsoft Defender helps us protect the system while allowing to safely review the file if further action is needed. This is a critical step in containment to restore the system to a secure state without the risk of reinfection.
+"Stop & Qurantine File" means moving the file to a secure location where it can no longer execute, but the file remains available in case further analysis or restoration is needed. Microsoft Defender helps us protect the system while allowing to safely review the file if further action is needed. This is a critical step in containment to restore the system to a secure state without the risk of reinfection.<br>
+Meanwhile we also use the "Deep Analysis" option, it helps determine how an incident originated, such as identifying the initial entry point (e.g., phishing, unpatched vulnerability). By understanding the root cause, i can implement more effective long-term fixes to prevent similar incidents in the future. Such as adding the File hash as an IOC or in the Indicator.
