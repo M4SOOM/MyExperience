@@ -107,3 +107,9 @@ After reviewing the mails, if the email contain malicious URLs i would delete si
 <hr>
 
 ### Customer Communication
+
+Keeping customers informed about the status of the incident from the moment it is detected by drafting our report in a mannerly way. Regular updates should be provided as new information arises, whether it’s about the detection, investigation, or resolution stages. Explaining the nature of the incident, what data or services may be affected, and how the incident is being managed was mentioned in our report so that it helps the customers grasp the situation and alleviates unnecessary concerns.
+So in order to provide the "Updates" regarding incidents, we used tool called "Jira".
+
+<img src="Images/MSI/Tickets.jpg">
+
