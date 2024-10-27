@@ -78,3 +78,7 @@ Then we start by investigating device timeline within a specific timeframe to fo
 
 3. User Investigation: <br>
 By accessing Sign-In and Audit Logs in Entra ID, we were able to provide detailed information on user authentication attempts, including successful and failed sign-ins, IP addresses, devices, applications accessed, and conditional access policies applied. And also any configuration or permission changes within Entra ID, including role assignments, group modifications, and application consent grants. By examining these logs, analysts can determine if unauthorized configuration changes have been made.
+
+<img src="Images/MSI/Sign-in.jpg">
+
+Sign-in logs also show if multi-factor authentication (MFA) was bypassed or failed, indicating an attacker may have attempted to access the account. Analysts verify if conditional access policies were correctly enforced, as unexpected failures here could signal policy misconfigurations or evasion attempts. IP addresses associated with a user’s logins are examined to see if they match the user’s usual locations or come from known suspicious IPs using a query. Unknown or flagged IPs might suggests a compromised account.
