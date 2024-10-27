@@ -31,7 +31,7 @@ As part of the Security Operations Center (SOC) team, analysts will manage the f
 - [Incident Identification and Categorization](#incident-identification-and-categorization)
 - [Incident Investigation and Root Cause Analysis](#incident-investigation-and-root-cause-analysis)
 - [Incident Response and Mitigation](#incident-response-and-mitigation)
-- [Customer Communication](#description-customer-communication)
+- [Customer Communication](#customer-communication)
   
 <hr>
 
