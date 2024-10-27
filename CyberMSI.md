@@ -97,3 +97,5 @@ After identifying and analyzing a security incident, the next crucial step was t
 - Removing Malicious Software: This step involves eradicating any malware or unauthorized files from infected systems to restore them to a secure state where we would qurantine the file or software with help of Microsoft Defender.
 
 <img src="Images/MSI/Quarantine.jpg">
+
+"Stop & Qurantine File" means moving the file to a secure location where it can no longer execute, but the file remains available in case further analysis or restoration is needed. Microsoft Defender helps us protect the system while allowing to safely review the file if further action is needed. This is a critical step in containment to restore the system to a secure state without the risk of reinfection.
