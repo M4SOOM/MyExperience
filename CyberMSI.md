@@ -68,6 +68,10 @@ The "Attack Story" section in Microsoft Defender XDR is pivotal for understandin
 - Check Email Entities for Spam or Phishing URLs<br>
   Email Entity Analysis: If the incident involves email-based threats, analysts focus on email entities like sender addresses, URLs, and attachments to assess potential phishing or spam content. URLs embedded in the email are inspected for redirections to known phishing sites or domains associated with malicious campaigns. Threat intelligence tools may also help identify IP addresses or domains that frequently host phishing content.<br>
 
+2. Root Cause Analysis: <br>
 Then we start by investigating device timeline within a specific timeframe to focus on, typically within a window of ±30 minutes from the first detection of malicious activity or suspicious alert. This allows the analyst to examine the immediate lead-up to and aftermath of the suspected compromise without being overwhelmed by unrelated data. Firstly start with examining key events on system and security logs to identify significant events, such as logins, logoffs, and attempts to escalate privileges, which could indicate attacker activity. Windows Event Logs, for example, can reveal details about user sessions, security policy changes, or suspicious file modifications.
 
 <img src="Images/MSI/Device_Timeline.jpg">
+
+- Unusual Executables: I reviewed processes and executables that were initiated on the device within the scoped timeline. They identify files that may not align with typical software behavior or scheduled tasks and determine if they match known malicious file hashes using threat intelligence platforms like VirusTotal. Suspicious executables are further analyzed to see if they attempted to establish persistence on the system (e.g., by adding registry keys or configuring scheduled tasks). If persistence mechanisms are identified, it can be a significant clue in understanding the attack's goals.
+- Outbound Connections: During the specified timeframe, we look for unusual network traffic, particularly outbound connections that may indicate data exfiltration attempts or communication with command-and-control (C2) servers.
