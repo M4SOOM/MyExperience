@@ -91,6 +91,7 @@ Role assignments or permission changes are reviewed, as attackers often attempt 
 
 ### Incident Response and Mitigation
 
+1. Endpoint Incidents: <br>
 After identifying and analyzing a security incident, the next crucial step was to respond in ways that prevent further damage and begin remediation. So me as an analyst would take remediation steps such as: <br>
 - Isolating Compromised Systems: To prevent the spread of malware or unauthorized access, compromised systems are isolated from the network. This containment helps control the incident and minimize the impact on other assets.
 - Applying Patches: If the incident involves a vulnerability that can be mitigated through patching, promptly applying patches reduces the risk of recurrence.
@@ -100,3 +101,7 @@ After identifying and analyzing a security incident, the next crucial step was t
 
 "Stop & Qurantine File" means moving the file to a secure location where it can no longer execute, but the file remains available in case further analysis or restoration is needed. Microsoft Defender helps us protect the system while allowing to safely review the file if further action is needed. This is a critical step in containment to restore the system to a secure state without the risk of reinfection.<br>
 Meanwhile we also use the "Deep Analysis" option, it helps determine how an incident originated, such as identifying the initial entry point (e.g., phishing, unpatched vulnerability). By understanding the root cause, i can implement more effective long-term fixes to prevent similar incidents in the future. Such as adding the File hash as an IOC or in the Indicator.
+
+2. MDO/Email Incidents: <br>
+After reviewing the mails, if the email contain malicious URLs i would delete similar phishing emails sent by the "Sender Adress", block the sender’s address, and add malicious URLs as indicators to improve the organization’s protection against similar threats in the future.
+
