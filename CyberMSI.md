@@ -86,3 +86,5 @@ Sign-in logs also show if multi-factor authentication (MFA) was bypassed or fail
 Similarly, analysts align the audit log activities with the timeframe of any detected incidents. If, for instance, unusual permission changes occur around the same time as an alert, it can strongly indicate a compromise. Reviewing sign-in attempts together with audit logs helped analysts build a complete picture of how the account was accessed and potentially misused.
 
 <img src="Images/MSI/Audit_Log.jpg">
+
+Role assignments or permission changes are reviewed, as attackers often attempt to elevate privileges once they’ve gained access to an account. Audit logs show exactly when and by whom these changes were made. I looked for any recently granted application consents or new applications assigned to the user. Unauthorized applications can indicate an attempt to grant persistent access to third-party applications or malicious tools. If a user has been added to sensitive groups (such as Admin or Global Admin groups) without a valid reason, this could suggest malicious intent to gain access to broader resources.
