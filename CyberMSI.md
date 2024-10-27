@@ -105,3 +105,5 @@ Meanwhile we also use the "Deep Analysis" option, it helps determine how an inci
 2. MDO/Email Incidents: <br>
 After reviewing the mails, if the email contain malicious URLs i would delete similar phishing emails sent by the "Sender Adress", block the sender’s address, and add malicious URLs as indicators to improve the organization’s protection against similar threats in the future.
 
+<img src="Images/MSI/Soft.jpg">
+
