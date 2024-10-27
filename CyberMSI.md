@@ -30,7 +30,7 @@ As part of the Security Operations Center (SOC) team, analysts will manage the f
 ## Table of contents
 - [Incident Identification and Categorization](#incident-identification-and-categorization)
 - [Incident Investigation and Root Cause Analysis](#incident-investigation-and-root-cause-analysis)
-- [How to use them](#how-to-use-them)
+- [Incident Response and Mitigation](#incident-response-and-mitigation)
 - [Roadmap](#roadmap)
 - [Releases](#releases)
 - [Contributors](#contributors)
@@ -88,3 +88,12 @@ Similarly, analysts align the audit log activities with the timeframe of any det
 <img src="Images/MSI/Audit_Log.jpg">
 
 Role assignments or permission changes are reviewed, as attackers often attempt to elevate privileges once they’ve gained access to an account. Audit logs show exactly when and by whom these changes were made. I looked for any recently granted application consents or new applications assigned to the user. Unauthorized applications can indicate an attempt to grant persistent access to third-party applications or malicious tools. If a user has been added to sensitive groups (such as Admin or Global Admin groups) without a valid reason, this could suggest malicious intent to gain access to broader resources.
+
+### Incident Response and Mitigation
+
+After identifying and analyzing a security incident, the next crucial step was to respond in ways that prevent further damage and begin remediation. So me as an analyst would take remediation steps such as: <br>
+- Isolating Compromised Systems: To prevent the spread of malware or unauthorized access, compromised systems are isolated from the network. This containment helps control the incident and minimize the impact on other assets.
+- Applying Patches: If the incident involves a vulnerability that can be mitigated through patching, promptly applying patches reduces the risk of recurrence.
+- Removing Malicious Software: This step involves eradicating any malware or unauthorized files from infected systems to restore them to a secure state where we would qurantine the file or software with help of Microsoft Defender.
+
+<img src="Images/MSI/Quarantine.jpg">
