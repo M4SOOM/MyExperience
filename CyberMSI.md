@@ -104,4 +104,6 @@ After reviewing the mails, if the email contain malicious URLs i would delete si
 
 <img src="Images/MSI/Soft.jpg">
 
+<hr>
+
 ### Customer Communication
