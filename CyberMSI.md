@@ -81,4 +81,8 @@ By accessing Sign-In and Audit Logs in Entra ID, we were able to provide detaile
 
 <img src="Images/MSI/Sign-in.jpg">
 
-Sign-in logs also show if multi-factor authentication (MFA) was bypassed or failed, indicating an attacker may have attempted to access the account. Analysts verify if conditional access policies were correctly enforced, as unexpected failures here could signal policy misconfigurations or evasion attempts. IP addresses associated with a user’s logins are examined to see if they match the user’s usual locations or come from known suspicious IPs using a query. Unknown or flagged IPs might suggests a compromised account.
+Sign-in logs also show if multi-factor authentication (MFA) was bypassed or failed, indicating an attacker may have attempted to access the account. Analysts verify if conditional access policies were correctly enforced, as unexpected failures here could signal policy misconfigurations or evasion attempts. IP addresses associated with a user’s logins are examined to see if they match the user’s usual locations or come from known suspicious IPs using a query. Unknown or flagged IPs might suggests a compromised account. <br>
+
+Similarly, analysts align the audit log activities with the timeframe of any detected incidents. If, for instance, unusual permission changes occur around the same time as an alert, it can strongly indicate a compromise. Reviewing sign-in attempts together with audit logs helped analysts build a complete picture of how the account was accessed and potentially misused.
+
+<img src="Images/MSI/Audit_Log.jpg">
