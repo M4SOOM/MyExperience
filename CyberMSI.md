@@ -113,3 +113,4 @@ So in order to provide the "Updates" regarding incidents, we used tool called "J
 
 <img src="Images/MSI/Tickets.jpg">
 
+For each incident, a ticket within Jira Service Management was created where by adding comments in easy-to-understand language, i was able to explain each update on the incidents without any issues. And when closing the ticket, we used to add a final comment which summarized detailing the actions taken, the root cause, and any remediation steps. This gives customers a clear overview of how the incident was handled and reassures them that it was thoroughly addressed.
